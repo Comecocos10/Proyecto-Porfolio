@@ -80,7 +80,10 @@ function Photo(props) {
         { photo: Paisaje8 },
     ];
     const Renders = [
-        { photo: Render13 },
+        
+        { photo: Render12 },
+        { photo: Render11 },
+        { photo: Render1 },
         { photo: Render2 },
         { photo: Render5 },
         { photo: Render6 },
@@ -88,9 +91,10 @@ function Photo(props) {
         { photo: Render8 },
         { photo: Render9 },
         { photo: Render10 },
-        { photo: Render11 },
-        { photo: Render12 },
-        { photo: Render1 },
+        { photo: Render13 },
+        
+        
+        
     ];
 
     return (

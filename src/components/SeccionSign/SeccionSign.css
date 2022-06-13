@@ -19,7 +19,7 @@
 .fondo-sign{
     position: absolute;
     top: 352px;
-    left: 50px;
+    left: 35px;
     z-index: 0;
     display: flex;
     justify-content: center;
