@@ -1,0 +1,81 @@
+.Sign1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+}
+.Sign{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+
+.info-page{
+    margin-top: 66px;
+    width: 90%;
+}
+
+.fondo-sign{
+    position: absolute;
+    top: 352px;
+    left: 50px;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    width: 80vw
+}
+
+  .change-sign {
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      align-items: center;
+  }
+
+.text-sign{
+    font-family: 'Oswald', sans-serif;
+    width: 300px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: #F6F6F6;
+    z-index: 2;
+    margin: 0;
+}
+
+
+.noarrow{
+    margin-bottom: 90px;
+}
+
+.arrowseccion{
+    height: 12px;
+    width: 12px;
+    display: flex;
+    flex-direction: row;
+    max-width: 100vw;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.drcha-s {
+    transform: rotate(180deg);
+    margin-bottom: 24px;
+}
+
+/*MEDIAS*/
+@media (min-width: 950px) {
+    .fondo-sign {
+    position: absolute;
+    top: 425px;
+    display: flex;
+    justify-content: center;
+    z-index: 0;
+    width: 95vw;
+}
+
+}
+

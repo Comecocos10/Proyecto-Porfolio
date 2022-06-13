@@ -1,0 +1,65 @@
+.crono{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0 254px 0 12px;
+    z-index: 0;
+}
+
+.years{
+    display: flex;
+    flex-direction: column;
+    margin: 6px 30px 6px 18px;
+}
+
+.year{
+    margin: 30px 0px 36px 0px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #232A2A;
+}
+
+.bi{
+    margin-bottom: 138px;
+}
+.tri {
+    margin-bottom: 240px;
+}
+.non {
+    margin-bottom: 0px;
+}
+
+.arrow-guide {
+    max-height: 1120px;
+}
+
+@media (min-width: 950px) {
+    .arrow-guide{
+        max-height: 1620px;
+    }
+    .crono {
+        margin: 0 66% 0 6px;
+    }
+    
+        .years {
+            margin: 6px 60px 6px 48px;
+        }
+    
+        .year {
+            margin: 30px 0px 66px 0px;
+            font-size: 28px;
+        }
+        .bi {
+            margin-bottom: 202px;
+        }
+
+        .tri {
+            margin-bottom: 338px;
+        }
+
+        .non {
+            margin-bottom: 0px;
+        }
+
+}

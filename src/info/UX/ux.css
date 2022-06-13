@@ -1,0 +1,51 @@
+.change-sign {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.paragraf-proyects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px 6px 24px 6px;
+}
+    .long{
+        justify-content: center;
+    }
+
+.titel-proyec{
+    font-family: 'Caveat', cursive;
+    font-weight: 600;
+    font-size: 30px;
+    margin: 0 0 0 0%;
+    color: #232A2A;
+    text-align: center;
+}
+
+.seccion-proycts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.text-proyect {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #232A2A;
+}
+
+.img-ux {
+    height: 233px;
+    width: 127px;
+}
+        .hriz {
+            height: 97px;
+            width: 150px;
+        }

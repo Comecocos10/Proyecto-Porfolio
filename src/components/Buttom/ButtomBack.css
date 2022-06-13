@@ -1,0 +1,33 @@
+.buttomback {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.arrow-back{
+    margin: 0 12px 0 12px; 
+}
+
+.text-back{
+    color: #232A2A;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+@media (min-width: 950px) {
+    .buttomback {
+        margin: 0px 54px 0px 54px;
+    }
+
+    .arrow-back {
+        width: 24px;
+        height: 24px;
+        margin: 0 24px 0 24px;
+    }
+
+    .text-back {
+        font-size: 1.7rem;
+    }
+}

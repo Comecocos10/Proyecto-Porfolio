@@ -1,0 +1,85 @@
+.Borders{
+    z-index: 0;
+    position: absolute;
+    top: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+    .BorderOne{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        
+    }
+    .BorderTwo {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        position: absolute;
+
+    }
+        
+        .BorderIzq, .BorderDrc {
+            position: relative;
+            top: -50px;
+            background-color: #22B5A3;
+            width: 36px;
+            height: 1050px;
+            
+        }
+            .big {
+                height: 1570px;
+            }
+
+
+    .lines{
+        display: flex;
+        flex-direction: column;
+    }
+
+        .line{
+            width: 18px;
+            height: 982px;
+
+        }
+        .line2 {
+            width: 18px;
+            height: 786px;
+            margin-top: 10px;
+            display: none;
+        }
+        .final{
+            margin-top: 25px;
+        }
+    
+
+/*MEDIAS*/
+
+@media (min-width: 950px) {
+    .Borders {
+        top: 610px;
+    }
+    .BorderOne{
+        justify-content: space-around;
+    }
+    .BorderIzq,
+    .BorderDrc {
+        width: 56px;
+        height: 1250px;
+    }
+        .big {
+            height: 1800px;
+        }
+
+        .last-b{
+            height: 1850px;
+        }
+
+    .line2 {
+        display: block;
+    }
+}

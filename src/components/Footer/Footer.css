@@ -1,0 +1,63 @@
+.footer {
+    padding: 12px;
+}
+.footer-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.mini-Logo {
+    width: 63px;
+    height: 51px;
+    margin: 6px;
+}
+
+.text-rrss {
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+    font-size: 1.1rem;
+    position: relative;
+    left: 22%;
+    white-space: nowrap;
+    margin: 0px 0 0 0;
+    color: #232A2A;
+}
+
+.section-rrss{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 270px;
+}
+
+.img-rrss{
+    width: 40px;
+    height: 40px;
+}
+
+.img-rrss:hover {
+    width: 43px;
+    height: 43px;
+}
+
+/*MEDIAS*/
+
+@media (min-width: 950px) {
+    .text-rrss {
+        font-size: 2rem;
+        top: 5px;
+    }
+    .section-rrss {
+        width: 670px;
+        margin-right: 10%;
+    }
+        .img-rrss {
+            width: 60px;
+            height: 60px;
+        }
+        .img-rrss:hover {
+            width: 66px;
+            height: 66px;
+        }
+}

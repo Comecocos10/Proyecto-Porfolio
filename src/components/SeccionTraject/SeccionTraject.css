@@ -1,0 +1,113 @@
+.total-trajectory {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    margin: 42px 12px 42px 90px;
+}
+
+.trajectory {
+    border: none;
+}
+
+.text-trajectory {
+    margin: 0px 6px 0px 18px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #232A2A;
+}
+
+.StudyJob{
+    width: 55px;
+
+}
+
+
+.trajectory-open {
+    background-image: '../../recursos/cabecera-gray.png';
+    padding: 12px;
+    position: absolute;
+    max-width: 206px;
+    transform: translateX(40px);
+}
+
+.img-info{
+    position: relative;
+    top: 42px;
+    left: 20px;
+    height: 90px;
+}
+
+.text-info{
+    position: relative;
+    top: -52px;
+    left: 20px;
+    margin: 3px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.8em;
+    font-weight: 300;
+    color: #232A2A;
+    min-width: 145px;
+}
+
+.info-trajectory{
+    position: relative;
+    left: 12px;
+    top: 10px;
+
+}
+    .one{
+        margin-left: 18px;
+        font-weight: 600;
+    }
+
+.line-traject{
+    display: none;
+}
+
+
+@media (min-width: 950px) {
+    .total-trajectory {
+        justify-content: flex-start;
+        margin: 66px 0 66px 24%;
+    }
+    
+    .trajectory {
+        width: 85px;
+        height: 71px;
+    }
+        .StudyJob {
+            width: 80px;
+        }
+
+    .text-trajectory {
+        font-size: 24px;
+    }
+
+    .trajectory-open {
+        position: absolute;
+        transform: translateX(625px);
+        max-width: 406px;
+    }
+
+    .img-info {
+        top: 40px;
+        left: 35px;
+        height: 110px;
+    }
+
+    .text-info {
+        top: -70px;
+        left: 30px;
+        font-size: 1em;
+    }
+
+    .line-traject {
+        display: flex;
+        justify-content: flex-start;
+
+    }
+    
+
+}

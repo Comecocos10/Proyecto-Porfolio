@@ -1,0 +1,107 @@
+.Sign-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+    margin-bottom: 36px;
+    z-index: 1;
+}
+
+.Sign-total {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+    z-index: 0;
+}
+.titel-skill-photo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 24px 0;
+}
+.titel-text{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 600;
+    z-index: 2;
+    margin: 0;
+}
+.numer{
+    height: 60px;
+    margin-right: 36px;
+}
+
+.fondo-photo {
+    width:250px ;
+    height: 170px;
+    position: absolute;
+    top: 136px;
+    left: 30px;
+    z-index: 0;
+}
+
+.change-sign {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.change-photo{
+    width: 300px;
+    height: 200px;
+    margin: 12px;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+}
+.img-phto{
+    width: inherit;
+    height: fit-content;
+    
+}
+
+.text-sign {
+    font-family: 'Oswald', sans-serif;
+    width: 300px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: #F6F6F6;
+    z-index: 2;
+    margin: 0;
+}
+
+
+.arrowseccion {
+    height: 12px;
+    width: 12px;
+    display: flex;
+    flex-direction: row;
+    max-width: 100vw;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.drcha-s {
+    transform: rotate(180deg);
+    margin-bottom: 24px;
+}
+
+/*MEDIAS*/
+@media (min-width: 950px) {
+    .fondo-sign {
+        position: absolute;
+        top: 425px;
+        display: flex;
+        justify-content: center;
+        z-index: 0;
+        width: 95vw;
+    }
+
+}
