@@ -1,0 +1,43 @@
+.threeDMe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15% 0 15%;
+}
+
+.platform{
+    max-width: 200px;
+    position: relative;
+    top: -15px;
+    z-index: 0;
+}
+
+.model{
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+}
+
+
+.text {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+    color: #232A2A;
+}
+
+.text-decoration:link,
+.text-decoration:visited,
+.text-decoration:active {
+    text-decoration: none;
+}
+
+/*MEDIAS*/
+
+@media (min-width: 950px) {
+    .threeDMe{
+            margin: 0 10% 0 15%;
+        }
+}

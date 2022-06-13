@@ -1,0 +1,32 @@
+.change-sign {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.titel-proyec {
+    font-family: 'Caveat', cursive;
+    font-weight: 600;
+    font-size: 30px;
+    margin: 0 0 0 0%;
+    color: #232A2A;
+    text-align: center;
+}
+
+.text-proyect{
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #232A2A;
+}
+
+.img-product{
+    height: 233px;
+    width: 127px;
+}
+
+    .horz{
+        height: 127px;
+        width: 200px;
+    }

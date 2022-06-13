@@ -1,0 +1,23 @@
+.seccion-up{
+    z-index: 1;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.crono-back{
+    z-index: 0;
+    position: absolute;
+    top: 525px;
+    width: 100%;
+}
+
+/*MEDIAS*/
+
+@media (min-width: 950px) {
+    .crono-back {
+        display: flex;
+        justify-content: center;
+        top: 640px;
+    }
+    
+}

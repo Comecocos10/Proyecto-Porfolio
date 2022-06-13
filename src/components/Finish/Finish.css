@@ -1,0 +1,61 @@
+.finish {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5400px;
+}
+    
+    .titel-finish{
+        font-family: 'Oswald', sans-serif;
+        font-size: 3rem;
+        font-weight: 600;
+        margin: 0;
+        color: #232A2A;
+    }
+
+        .congratulation {
+            font-family: 'Caveat', cursive;
+            font-weight: 600;
+            font-size: 2.5rem;
+            margin: 0 0 0 0%;
+            white-space: nowrap;
+            color: #232A2A;
+        }
+
+        .captured {
+            font-family: 'Caveat', cursive;
+            color: #232A2A;
+            font-weight: 400;
+            font-size: 1.5rem;
+            margin: 0 0 1% 0%;
+            white-space: nowrap;
+        }
+
+        .email{
+            color: #4C2650;
+            font-family: 'Oswald', sans-serif;
+            font-size: 1.5rem;
+            font-weight: 400;
+            margin: 0 0 25px 0%;
+            text-decoration: none;
+        }
+
+        .email:hover {
+            color: #22B5A3;
+            font-size: 1.7rem;
+            font-weight: 600;
+            text-decoration: underline;
+        }
+        
+model-viewer#reveal {
+    --poster-color: transparent;
+}
+
+/*MEDIAS*/
+
+@media (min-width: 950px) {
+    .finish {
+        margin-top: 7110px;
+    }
+}

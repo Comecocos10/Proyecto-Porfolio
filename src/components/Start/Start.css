@@ -1,0 +1,21 @@
+.start{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+        .text-start {
+            font-family: 'Oswald', sans-serif;
+            font-size: 3em;
+            font-weight: 600;
+            margin: 12px 0 0 0;
+            color: #232A2A;
+        }
+
+        .arrow-start{
+            width: 59px;
+            height: 59px;
+            transform: rotate(-90deg);
+        }
+

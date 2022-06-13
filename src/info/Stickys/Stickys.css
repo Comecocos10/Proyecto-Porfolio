@@ -1,0 +1,28 @@
+.text-sign {
+    font-family: 'Oswald', sans-serif;
+    width: 300px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: #F6F6F6;
+    z-index: 2;
+    margin: 0;
+}
+
+.stickys{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.change-sign {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+

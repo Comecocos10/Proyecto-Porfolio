@@ -1,0 +1,42 @@
+.buttom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.text-tellyou {
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+    font-size: 1.25rem;
+    margin: 0 0 7% 0;
+    color: #232A2A;
+}
+
+
+/*BOTON*/
+
+.pushable {
+    background: #22B5A3;
+    border-radius: 6px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+}
+
+.front {
+    display: block;
+    padding: 12px 42px;
+    border-radius: 6px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    background: #32D9C5;
+    color: #232A2A;
+    transform: translateY(-6px);
+}
+
+.pushable:active .front {
+    transform: translateY(-2px);
+}

@@ -1,0 +1,46 @@
+.section-menu {
+    margin: 12px;
+}
+    .link-ghost-menu{
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+        .text-ghost-menu {
+            margin: 6px 18px 6px 6px;
+            font-family: 'Oswald', sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            min-width: 120px;
+            color: #232A2A;
+        }
+
+        .ghost-menu{
+            margin: 0 0 0 24px;
+        }
+
+        .link-ghost-menu:visited {
+            color: #AB5CB2;
+            
+        }
+
+
+/*MEDIAS*/
+
+@media (min-width: 950px) {
+    .text-ghost-menu {
+            font-weight: 600;
+            font-size: 1.5em;
+            min-width: 180px;
+            margin: 18px 24px 18px 12px;
+        }
+
+        .ghost-menu {
+            margin: 0 0 0 30px;
+            width: 48px;
+            height: 48px;
+        }
+
+}

@@ -1,0 +1,52 @@
+.titel-ghost {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hi {
+    font-family: 'Caveat', cursive;
+    font-weight: 600;
+    font-size: 2.5rem;
+    margin: 0 0 0 12%;
+    white-space: nowrap;
+    background-color: #EEF5F6;
+    color: #232A2A;
+    
+}
+        .hi2 {
+            font-family: 'Caveat', cursive;
+            font-weight: 600;
+            font-size: 2.5rem;
+            margin: 0 50px 0 17%;
+            white-space: nowrap;
+            background-color: #EEF5F6;
+            color: #232A2A;
+        }
+
+.name-ghost{
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 0;
+    background-color: #EEF5F6;
+    color: #232A2A;
+    
+}
+
+/*MEDIAS*/
+
+@media (min-width: 950px) {
+    .titel-ghost {
+        margin: 0 15% 0 13%;
+    }
+
+    .hi {
+        margin: 0 0 0 2%;
+    }
+
+        .hi2 {
+            margin: 0 0 0 0%;
+        }
+
+}
