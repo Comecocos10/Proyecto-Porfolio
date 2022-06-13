@@ -17,12 +17,13 @@
     align-items: center;
 }
 
+
 .change-sign {
     display: flex;
     justify-content: center;
     flex-direction: row;
     align-items: center;
+    width: 100%;
 }
-
 
 

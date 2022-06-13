@@ -17,7 +17,6 @@ function Skills() {
         { name: 'Skills', type: '' },
         { name: 'Ability', type: 'photo' },
     ];
-    
 
     return (
         <div className="Skills">
