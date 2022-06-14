@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 5400px;
+    margin-top: 5350px;
 }
     
     .titel-finish{
@@ -31,6 +31,10 @@
             margin: 0 0 1% 0%;
             white-space: nowrap;
         }
+        
+        .video-finsh{
+            width: 400px;
+        }
 
         .email{
             color: #4C2650;
@@ -56,6 +60,9 @@ model-viewer#reveal {
 
 @media (min-width: 950px) {
     .finish {
-        margin-top: 7110px;
+        margin-top: 7050px;
+    }
+    .video-finsh {
+        width: 550px;
     }
 }
