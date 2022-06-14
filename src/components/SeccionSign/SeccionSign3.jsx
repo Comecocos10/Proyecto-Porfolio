@@ -8,19 +8,19 @@ import Photo from '../../info/Photo/Photo';
 
 function SeccionSign3(props) {
     const [counter, setCounter] = useState(0);
-    const SkillList = [
+    const SkillList2 = [
         {
             type: 'sticky',
             name: 'Skills'
         },
         {
             type: 'photo',
-            name: 'Ability',
-        },
+            name: 'Ability'
+        }
     ];
 
     return (
-        <div className="Sign">
+        <div className="Sign3">
             <div className='fondo-sign'>
                 <svg width="295" height="105" viewBox="0 0 578 234" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M502.607 234H11V161.683V89.366L86.9098 10H578V171.865L502.607 234Z" fill={props.colorlight} />
@@ -37,8 +37,8 @@ function SeccionSign3(props) {
                     <section className='change-sign'>
                         <p className='text-sign'>{props.data[counter].name}</p>
                     </section>
-                    <section className='info-page-dos'>                    
-                        {SkillList.map(SkillList => SkillList.type = "sticky" ? <Stickys /> : <Photo />)}
+                    <section className='info-page-dos'>
+                        { SkillList2.map(() => SkillList2[counter].type === "sticky" ? <Stickys /> : <Photo />)}
                     </section>
                 
                 </div>

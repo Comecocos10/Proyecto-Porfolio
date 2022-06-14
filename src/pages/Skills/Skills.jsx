@@ -5,6 +5,9 @@ import GhostSeccion from '../../components/Ghost/GhostSeccion';
 import Pinky from '../../recursos/ThreeD/pinky.glb';
 import { Link } from 'react-router-dom';
 import SeccionSign3 from '../../components/SeccionSign/SeccionSign3';
+import Stickys from '../../info/Stickys/Stickys';
+import Photo from '../../info/Photo/Photo';
+
 
 
 
@@ -13,11 +16,9 @@ function Skills() {
 
     const SkillList = [
         {   
-            type: 'sticky', 
             name: 'Skills'
         },
-        { 
-            type: '', 
+        {  
             name: 'Ability', 
         },
     ];
@@ -32,7 +33,9 @@ function Skills() {
             <SeccionSign3
                 colorlight="#F1BCE5"
                 colordark="#E893D5"
-                data={SkillList}/>
+                data={SkillList}
+                />
+        
         </div>
     );
 }

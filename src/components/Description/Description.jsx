@@ -15,7 +15,7 @@ function Description(props) {
             </div>
             <div className='paragraf-iam'>
                 <img className='img-iam' src={props.dino} alt="" />
-                <p className='text-iam little' >My perfect user experience is: Time with my dog and my family, a beer with friends, a video game session, and humour (especially silly humour). I define myself as a literature lover, an art groupie, a photography hobbyist and a dinosaurs fan.</p>
+                <p className='text-iam little' >My perfect user experience is: Time with my dog and my family, a beer with friends, a video game session, and humour (especially silly humour). I define myself as a literature lover, an art groupie, a photography hobbyist and a dinosaur's fan.</p>
             </div>
         </div>
     );

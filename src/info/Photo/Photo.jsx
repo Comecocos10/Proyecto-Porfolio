@@ -119,7 +119,7 @@ function Photo(props) {
             </div>
             <div className='titel-skill'>
                 <img className='numer' src={Three} alt="" />
-                <h2 className='titel-text'>Landscape</h2>
+                <h2 className='titel-text'>Landscapes</h2>
             </div>
             <div className='Sign-photo'>
                 <SliderPhoto

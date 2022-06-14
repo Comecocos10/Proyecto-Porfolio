@@ -8,7 +8,6 @@ import Four from '../../recursos/4.png'
 
 
 function Sticky(props) {
-    const [counter, setCounter] = useState(0);
 
     return (
         <div className="Sign">
