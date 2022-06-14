@@ -9,9 +9,10 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    align-items: flex-start;
     justify-content: space-between;
-    align-items: center;
-    margin: 24px 6px 24px 6px;
+    margin: 6px;
+
 }
     .long{
         justify-content: center;
@@ -23,29 +24,53 @@
     font-size: 30px;
     margin: 0 0 0 0%;
     color: #232A2A;
-    text-align: center;
+    margin: 6px 24px 6px 24px;
 }
 
 .seccion-proycts{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
 }
 
 .text-proyect {
+    text-align: start;
     font-family: 'Oswald', sans-serif;
     font-size: 16px;
     font-weight: 400;
     color: #232A2A;
+    max-width: 330px;
+    margin: 6px 12px 6px 12px;
+    max-height: 100px;
+}
+
+.little2 {
+    max-width: 160px;
+    margin: 3px 12px 3px 12px;
 }
 
 .img-ux {
-    height: 233px;
-    width: 127px;
+    height: 462px;
+    width: 180px;
 }
         .hriz {
             height: 97px;
             width: 150px;
         }
+        
+
+@media (min-width: 950px) {
+
+    .titel-proyec {
+        font-size: 39px;
+    }
+
+    .text-proyect {
+        font-size: 21px;
+        max-width: 550px;
+    }
+
+    .little2 {
+        max-width: 500px;
+        margin: 6px 24px 12px 24px
+    }
+}

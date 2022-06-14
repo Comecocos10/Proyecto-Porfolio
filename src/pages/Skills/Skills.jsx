@@ -14,7 +14,7 @@ import Photo from '../../info/Photo/Photo';
 function Skills() {
 
     const Skills = [
-        { name: 'Skills', type: '' },
+        { name: 'Skills', type: 'sticky' },
         { name: 'Ability', type: 'photo' },
     ];
 
@@ -28,9 +28,11 @@ function Skills() {
             <SeccionSign
                 colorlight="#F1BCE5"
                 colordark="#E893D5"/>
-            <Stickys
-            data={Skills}/>
-            <Photo/>
+        
+            {Skills.map(Skills => Skills.type === 'sticky' ? <Stickys /> : <Photo />)}  
+                
+            
+            
         </div>
     );
 }

@@ -13,13 +13,12 @@
 
 .info-page{
     margin-top: 66px;
-    width: 90%;
 }
 
 .fondo-sign{
     position: absolute;
     top: 352px;
-    left: 35px;
+    left: 42px;
     z-index: 0;
     display: flex;
     justify-content: center;
@@ -51,11 +50,11 @@
 }
 
 .arrowseccion{
-    height: 12px;
-    width: 12px;
+    height: 24px;
+    width: 24px;
     display: flex;
     flex-direction: row;
-    max-width: 100vw;
+    max-width: 90vw;
     justify-content: center;
     align-items: center;
     margin-top: 12px;
@@ -69,13 +68,22 @@
 /*MEDIAS*/
 @media (min-width: 950px) {
     .fondo-sign {
-    position: absolute;
-    top: 425px;
-    display: flex;
-    justify-content: center;
-    z-index: 0;
-    width: 95vw;
-}
+        position: absolute;
+        top: 425px;
+        left: 32px;
+        display: flex;
+        justify-content: center;
+        z-index: 0;
+        width: 95vw;
+        }
+        .arrowseccion {
+            height: 18px;
+            width: 18px;
+        }
+
+        .info-page {
+            width: 550px;
+        }
 
 }
 

@@ -23,7 +23,7 @@ function AboutMe() {
         { name: 'Disney', image: Funko },
         { name: 'Pixar', image: Funko },
         { name: 'The Office', image: Funko },
-        { name: 'HarryPotter', image: Funko },
+        { name: 'Harry Potter', image: Funko },
         { name: 'The Boys', image: Funko },
         { name: 'Rick Y Morty', image: Funko },
         { name: 'The Simpsons', image: Funko },
@@ -32,17 +32,17 @@ function AboutMe() {
     ];
 
     const book = [
-        { name: '100 años de Soledad', image: Books },
-        { name: 'Historia de un canalla', image: Books },
+        { name: 'One Hundred Years of Solitude', image: Books },
+        { name: 'Story of a Scoundrel', image: Books },
         { name: 'Memorias de una salvaje', image: Books },
-        { name: 'Memorias de Indun', image: Books },
-        { name: 'Leyendas de los otori', image: Books },
-        { name: 'HarryPotter', image: Books },  
+        { name: 'The Idhún´s Memories', image: Books },
+        { name: 'Tales of the Otori', image: Books },
+        { name: 'Harry Potter', image: Books },  
     ];
 
     const videogames = [
         { name: 'Sypiro', image: VideoGames },
-        { name: 'Jack II: El Renegado', image: VideoGames },
+        { name: 'Jack II: Renegade', image: VideoGames },
         { name: 'Skyrim', image: VideoGames },
         { name: 'Dragon Age: Inquisitor', image: VideoGames  },
         { name: 'Kingdom Hearts', image: VideoGames },

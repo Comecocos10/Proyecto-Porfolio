@@ -14,23 +14,31 @@ function Bar(props) {
             <div className='skill-list'>
                 <div className='skill-minilist'>
                     <SkillBarmini
-                        program ={props.program1}/>
+                        program ={props.program1}
+                        class={props.class1}/>
                     <SkillBarmini
-                        program={props.program2}/>
+                        program={props.program2}
+                        class={props.class2}/>
                     <SkillBarmini
-                        program={props.program3} />
+                        program={props.program3}
+                        class={props.class3} />
                     <SkillBarmini
-                        program={props.program4} /> 
+                        program={props.program4}
+                        class={props.class4} /> 
                 </div>
                 <div>
                     <SkillBarmini
-                        program={props.program5} />
+                        program={props.program5}
+                        class={props.class5} />
                     <SkillBarmini
-                        program={props.program6} />
+                        program={props.program6}
+                        class={props.class6} />
                     <SkillBarmini
-                        program={props.program7} />
+                        program={props.program7}
+                        class={props.class7} />
                     <SkillBarmini
-                        program={props.program8} />
+                        program={props.program8}
+                        class={props.class8} />
                 </div>
                 
                 

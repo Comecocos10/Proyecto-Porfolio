@@ -18,9 +18,9 @@ function Ux(props) {
                         <div className='paragraf-proyects'>
                             <section className='seccion-proycts'>
                                 <h4 className='titel-proyec'>Goal</h4>
-                                <p className='text-proyect little'>{props.data[counter].goal} Texto</p>
+                                <p className='text-proyect little2'>{props.data[counter].goal} Texto</p>
                                 <h4 className='titel-proyec'>Descripcion</h4>
-                                <p className='text-proyect little'>{props.data[counter].descripcion}Texto</p>
+                                <p className='text-proyect little2'>{props.data[counter].descripcion}Texto</p>
                             </section>
                             <img className='img-ux' src="" alt="" />
                         </div>
@@ -37,7 +37,7 @@ function Ux(props) {
                                 <h4 className='titel-proyec'>Requirements</h4>
                                 <p className='text-proyect'>{props.data[counter].requeriments}Texto</p>
                                 <h4 className='titel-proyec'>User Interaction</h4>
-                                <p className='text-proyect little'>{props.data[counter].interaction}Texto</p>
+                                <p className='text-proyect little2'>{props.data[counter].interaction}Texto</p>
                             </section>
                             <img className='img-ux' src="" alt="" />
                         </div>
