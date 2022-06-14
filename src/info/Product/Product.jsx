@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './product.css';
-import Lu from '../../recursos/proyectos/Lu-1.png';
 
 
 function Product(props) {

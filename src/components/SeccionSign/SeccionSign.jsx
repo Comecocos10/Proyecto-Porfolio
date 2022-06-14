@@ -9,15 +9,7 @@ import Photo from '../../info/Photo/Photo';
 
 
 function SeccionSign(props) {
-
-    /*const [pages, diffProps] = useEffect(() => {props.data[counter].type });
-    
-    {function mierda() {
-                              if (pages = 'photo'){return (<Photo></Photo>)}
-                            else if (pages = 'product') {return (<Product></Product>)}
-                            else if (pages = 'ux') {return (<Ux></Ux>)}
-                            else (pages = 'sticky') {return (<Stickys></Stickys>)} => ();}}-->*/
-    
+   
     return (
         <div className="Sign1">
             <div className='fondo-sign'>

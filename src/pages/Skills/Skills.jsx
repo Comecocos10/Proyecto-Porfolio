@@ -4,18 +4,22 @@ import ButtomBack from '../../components/Buttom/ButtomBack';
 import GhostSeccion from '../../components/Ghost/GhostSeccion';
 import Pinky from '../../recursos/ThreeD/pinky.glb';
 import { Link } from 'react-router-dom';
-import SeccionSign from '../../components/SeccionSign/SeccionSign';
-import Stickys from '../../info/Stickys/Stickys';
-import Photo from '../../info/Photo/Photo';
+import SeccionSign3 from '../../components/SeccionSign/SeccionSign3';
 
 
 
 
 function Skills() {
 
-    const Skills = [
-        { name: 'Skills', type: 'sticky' },
-        { name: 'Ability', type: 'photo' },
+    const SkillList = [
+        {   
+            type: 'sticky', 
+            name: 'Skills'
+        },
+        { 
+            type: '', 
+            name: 'Ability', 
+        },
     ];
 
     return (
@@ -25,14 +29,10 @@ function Skills() {
             </Link>
             <GhostSeccion
                 modelo={Pinky}/>
-            <SeccionSign
+            <SeccionSign3
                 colorlight="#F1BCE5"
-                colordark="#E893D5"/>
-        
-            {Skills.map(Skills => Skills.type === 'sticky' ? <Stickys /> : <Photo />)}  
-                
-            
-            
+                colordark="#E893D5"
+                data={SkillList}/>
         </div>
     );
 }

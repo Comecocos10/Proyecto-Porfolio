@@ -11,8 +11,13 @@
     margin-top: 30px;
 }
 
+
 .info-page{
     margin-top: 66px;
+}
+
+.info-page-dos {
+    margin-top: 36px;
 }
 
 .fondo-sign{
@@ -44,6 +49,13 @@
     margin: 0;
 }
 
+.change-sign {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
 
 .noarrow{
     margin-bottom: 90px;

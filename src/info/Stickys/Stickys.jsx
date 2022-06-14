@@ -12,15 +12,7 @@ function Sticky(props) {
 
     return (
         <div className="Sign">
-            <svg onClick={() => setCounter(counter === 0 ? props.data.length - 1 : counter - 1)} className='arrowseccion' width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M22 25L4 13L22 1V25Z" fill="#232A2A" />
-            </svg>
-            {
-                props.data && <div >
-                    <section className='change-sign'>
-                        <p className='text-sign'>{props.data[counter].name}</p>
-                    </section>
-                    <section className='info-page'>
+                    <section className='info-page-dos'>
                         <div className='stickys'>
                                 <SkillBar 
                                     titel= 'Design'
@@ -104,14 +96,7 @@ function Sticky(props) {
                                 ></SkillBar> 
                         </div>    
                     </section>
-
                 </div>
-            }
-            <svg onClick={() => setCounter(counter === props.data.length - 1 ? 0 : counter + 1)} className='arrowseccion drcha-s' width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M22 25L4 13L22 1V25Z" fill="#232A2A" />
-            </svg>
-        
-        </div>
     );
 
 }

@@ -22,12 +22,12 @@ function Ux(props) {
                                 <h4 className='titel-proyec'>Descripcion</h4>
                                 <p className='text-proyect little2'>{props.data[counter].descripcion}Texto</p>
                             </section>
-                            <img className='img-ux' src="" alt="" />
+                            <img className='img-ux' src={props.data[counter].mvl1} alt="" />
                         </div>
                         <div className='paragraf-proyects'>
-                            <img className='img-ux' src="" alt="" />
+                            <img className='img-ux' src={props.data[counter].mvl2} alt="" />
                             <section className='seccion-proycts'>
-                                <h4 className='titel-proyec'>Empathy Map Users</h4>
+                                <h4 className='titel-proyec'>Users</h4>
                                 <img className='img-ux hriz ' src="" alt="" />
                                 <img className='img-ux hriz ' src="" alt="" />
                             </section>
@@ -39,7 +39,7 @@ function Ux(props) {
                                 <h4 className='titel-proyec'>User Interaction</h4>
                                 <p className='text-proyect little2'>{props.data[counter].interaction}Texto</p>
                             </section>
-                            <img className='img-ux' src="" alt="" />
+                            <img className='img-ux' src={props.data[counter].mvl3} alt="" />
                         </div>
                         <div className='paragraf-proyects long'>
                             <section className='seccion-proycts'>

@@ -6,13 +6,29 @@ import Inky from '../../recursos/ThreeD/inky.glb'
 import { Link } from 'react-router-dom';
 import SeccionSign from '../../components/SeccionSign/SeccionSign';
 import UX from '../../info/UX/Ux';
+import About from '../../recursos/proyectos/About1.png';
+import About2 from '../../recursos/proyectos/About2.png';
+import About3 from '../../recursos/proyectos/About3.png';
+import Lumvl from '../../recursos/proyectos/LuX1.png';
+import Lumvl2 from '../../recursos/proyectos/LuX2.png';
+import Lumvl3 from '../../recursos/proyectos/LuX3.png';
 
 
 function ProyectsUXUI() {
 
     const UxUi = [
-        {name: 'About me',},
-        {name: 'Lü',},
+        {
+            name: 'About me',
+            mvl1: About,
+            mvl2: About2,
+            mvl3: About3,
+        },
+        {
+            name: 'Lü',
+            mvl1: Lumvl,
+            mvl2: Lumvl2,
+            mvl3: Lumvl3,
+        },
 
     ];
 
