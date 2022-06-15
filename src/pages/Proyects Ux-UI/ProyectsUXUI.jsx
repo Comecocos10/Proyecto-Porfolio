@@ -40,6 +40,7 @@ function ProyectsUXUI() {
             interaction2: '- Explore the sections of the Skills.',
             interaction3: '- Go to the contact page.',
             interaction4: '- Contact through the given options.',
+            link: 'https://frontend.esatid3-2021.com/andreah/projectalpha/master.html',
         },
         {
             name: 'Lü',
@@ -57,6 +58,7 @@ function ProyectsUXUI() {
             interaction2: '- It is reported on the blog. It is advised in the chat. Inspired by the cookbook.',
             interaction3: '- Buy product spare parts and supplies.',
             interaction4: '- A user is created in the community.',
+            link: 'https://frontend.esatid3-2021.com/andreah/projectbeta/master.html',
         },
 
     ];

@@ -27,9 +27,8 @@ function SeccionSign3(props) {
                     <section className='change-sign'>
                         <p className='text-sign'>{props.data[counter].name}</p>
                     </section>
-                    { /* mira a ver ahora Slack*/}
                     <section className='info-page-dos'>
-                        {props.data.map(skill => skill.type === "sticky" ? <Stickys /> : <Photo />)}
+                       {props.data[counter].type === "sticky" ? <Stickys /> : <Photo /> }
                     </section>
                 
                 </div>
