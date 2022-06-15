@@ -1,3 +1,4 @@
+import React, { useEffect } from 'react';
 import './Home.css'; 
 import TitelGhost from '../../components/Titel/TitelGhost';
 import MiniAll from '../../components/Mini/MiniAll';
@@ -13,6 +14,10 @@ import Pinky from '../../recursos/ThreeD/pinky.glb';
 import Clyde from '../../recursos/ThreeD/clyde.glb';
 
 export default function Home() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, []);
+
   return (<>
       <Border />
       <div className='max-w'>

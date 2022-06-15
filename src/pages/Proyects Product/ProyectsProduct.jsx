@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './ProjectsProduct.css';
 import ButtomBack from '../../components/Buttom/ButtomBack';
 import GhostSeccion from '../../components/Ghost/GhostSeccion';
@@ -19,7 +19,11 @@ import Aqua from '../../recursos/proyectos/Aqua-1.png';
 import Aqua2 from '../../recursos/proyectos/Aqua-2.png';
 import Aqua3 from '../../recursos/proyectos/Aqua-3.jpg';
 
-function ProjectsProduct(props) {
+function ProjectsProduct() {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, []);
+
     const Products = [
         {   name: 'Lü', 
             briefing: 'Change the way we feed ourselves using a self-cultivation system of algae.',

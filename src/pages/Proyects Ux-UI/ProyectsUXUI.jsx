@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './ProyectsUXUI.css';
 import ButtomBack from '../../components/Buttom/ButtomBack';
 import GhostSeccion from '../../components/Ghost/GhostSeccion';
@@ -22,6 +22,9 @@ import LumvFlow from '../../recursos/proyectos/LuUserflow.png';
 
 
 function ProyectsUXUI() {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, []);
 
     const UxUi = [
         {

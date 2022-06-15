@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Skills.css';
 import ButtomBack from '../../components/Buttom/ButtomBack';
 import GhostSeccion from '../../components/Ghost/GhostSeccion';
@@ -13,6 +13,10 @@ import Photo from '../../info/Photo/Photo';
 
 
 function Skills() {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, []);
+
 
     const SkillList = [
         {

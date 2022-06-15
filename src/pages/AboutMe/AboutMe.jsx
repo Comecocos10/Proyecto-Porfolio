@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './AboutMe.css';
 import ButtomBack from '../../components/Buttom/ButtomBack'
 import { Link } from 'react-router-dom';
@@ -43,8 +43,10 @@ import Food7 from '../../recursos/Likes/food7.png';
 
 
 
-
 function AboutMe() {
+    useEffect(()=>{
+                window.scrollTo(0,0)
+            }, []);
 
     const listTV = [
         { name: 'Disney', image: Funko1 },
@@ -85,10 +87,9 @@ function AboutMe() {
         { name: 'Chocolate', image: Food6 },
         { name: 'Potato Omelette Sandwich', image: Food7 },
     ];
-
+    
     return (
         <div>
-
             <Link className='text-decoration' to='/'>
                 <ButtomBack />
             </Link>
