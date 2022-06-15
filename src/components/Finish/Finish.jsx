@@ -7,8 +7,8 @@ export default function Finish() {
     return <div className='finish'>
         <h3 className='titel-finish'>Finish</h3>
         <img className='video-finsh' src={All2} />           
-        <p className='congratulation'> Congratualtion!</p>
+        <p className='congratulation'> Congratualtions!</p>
         <p className='captured'> You have captured them all</p>
-        <a className='email' href="mailto:andrea.hernan.93@gmail.com">¡¡You win my email!!</a>
+        <a className='email' href="mailto:andrea.hernan.93@gmail.com">¡¡You've won my email!!</a>
     </div>
 }
