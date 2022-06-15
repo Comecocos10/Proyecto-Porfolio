@@ -15,12 +15,14 @@ import Photo from '../../info/Photo/Photo';
 function Skills() {
 
     const SkillList = [
-        {   
+        {
+            type: 'sticky',
             name: 'Skills'
         },
-        {  
-            name: 'Ability', 
-        },
+        {
+            type: 'photo',
+            name: 'Ability'
+        }
     ];
 
     return (
@@ -35,8 +37,9 @@ function Skills() {
                 colordark="#E893D5"
                 data={SkillList}
                 />
-        
+
         </div>
+        
     );
 }
 
