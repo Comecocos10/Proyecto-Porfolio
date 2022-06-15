@@ -17,6 +17,7 @@
     "three": "^0.140.2",
     "web-vitals": "^2.1.4"
   },
+  "homepage": "https://frontend.esatid3-2021.com/andreah/portfolio/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
