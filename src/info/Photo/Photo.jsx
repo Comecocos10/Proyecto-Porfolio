@@ -111,7 +111,7 @@ function Photo(props) {
                 </div>
             <div className='titel-skill'>
                <img className='numer' src={Two} alt="" />
-                <h2 className='titel-text'>Animals</h2>                 
+                <h2 className='titel-text'>Animals Pics</h2>                 
             </div>
             <div className='Sign-photo'>
                 <SliderPhoto
@@ -119,7 +119,7 @@ function Photo(props) {
             </div>
             <div className='titel-skill'>
                 <img className='numer' src={Three} alt="" />
-                <h2 className='titel-text'>Landscapes</h2>
+                <h2 className='titel-text'>Landscapes Pics</h2>
             </div>
             <div className='Sign-photo'>
                 <SliderPhoto
@@ -127,7 +127,7 @@ function Photo(props) {
             </div>
             <div className='titel-skill'>
                 <img className='numer' src={Four} alt="" />
-                <h2 className='titel-text'>Italy</h2>
+                <h2 className='titel-text'>Italy Pics</h2>
             </div>
             <div className='Sign-photo'>
                 <SliderPhoto
@@ -135,7 +135,7 @@ function Photo(props) {
             </div>
             <div className='titel-skill'>
                 <img className='numer' src={Five} alt="" />
-                <h2 className='titel-text'>Amsterdam</h2>
+                <h2 className='titel-text'>Amsterdam Pics</h2>
             </div>
             <div className='Sign-photo'>
                 <SliderPhoto
