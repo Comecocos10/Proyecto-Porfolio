@@ -33,7 +33,15 @@ import VideoGames3 from '../../recursos/Likes/vgame3.png';
 import VideoGames4 from '../../recursos/Likes/vgame4.png';
 import VideoGames5 from '../../recursos/Likes/vgame5.png';
 import VideoGames6 from '../../recursos/Likes/vgame6.png';
-import Food from '../../recursos/food.png';
+import Food1 from '../../recursos/Likes/food1.png';
+import Food2 from '../../recursos/Likes/food2.png';
+import Food3 from '../../recursos/Likes/food3.png';
+import Food4 from '../../recursos/Likes/food4.png';
+import Food5 from '../../recursos/Likes/food5.png';
+import Food6 from '../../recursos/Likes/food6.png';
+import Food7 from '../../recursos/Likes/food7.png';
+
+
 
 
 function AboutMe() {
@@ -69,13 +77,13 @@ function AboutMe() {
     ];
 
     const food = [
-        { name: 'Fried Eggs and Potatoes',  image: Food },
-        { name: 'Pizza', image: Food },
-        { name: 'Cannelloni', image: Food },
-        { name: 'Strawberrys ', image: Food },
-        { name: 'Watermelon', image: Food },
-        { name: 'Chocolate', image: Food },
-        { name: 'Potato Omelette Sandwich', image: Food },
+        { name: 'Fried Eggs and Potatoes',  image: Food1 },
+        { name: 'Pizza', image: Food2 },
+        { name: 'Cannelloni', image: Food3 },
+        { name: 'Strawberrys ', image: Food4 },
+        { name: 'Watermelon', image: Food5 },
+        { name: 'Chocolate', image: Food6 },
+        { name: 'Potato Omelette Sandwich', image: Food7 },
     ];
 
     return (

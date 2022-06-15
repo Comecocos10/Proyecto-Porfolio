@@ -8,16 +8,6 @@ import Photo from '../../info/Photo/Photo';
 
 function SeccionSign3(props) {
     const [counter, setCounter] = useState(0);
-    const SkillList2 = [
-        {
-            type: 'sticky',
-            name: 'Skills'
-        },
-        {
-            type: 'photo',
-            name: 'Ability'
-        }
-    ];
 
     return (
         <div className="Sign3">
@@ -37,8 +27,9 @@ function SeccionSign3(props) {
                     <section className='change-sign'>
                         <p className='text-sign'>{props.data[counter].name}</p>
                     </section>
+                    { /* mira a ver ahora Slack*/}
                     <section className='info-page-dos'>
-                        {SkillList2.map(SkillList2 => props.data[counter].type === "sticky" ? <Stickys /> : <Photo />)}
+                        {props.data.map(skill => skill.type === "sticky" ? <Stickys /> : <Photo />)}
                     </section>
                 
                 </div>
