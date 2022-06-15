@@ -36,9 +36,9 @@
     font-size: 18px;
     font-weight: 400;
     color: #232A2A;
-    max-width: 330px;
+    max-width: 160px;
     margin: 6px 12px 6px 12px;
-    max-height: 130px;
+    max-height: 120px;
 }
 .link-proyect{
     text-align: start;
@@ -63,12 +63,12 @@
 }
 
 .img-ux {
-    height: 385.44px;
-    width: 150px;
+    height: 325px;
+    width: 126.48px;
 }
         .hriz {
-            height: 217.82px;
-            width: 350px;
+            height: 186.7px;
+            width: 300px;
             margin: 24px 0 24px 0 ;
 
         }
