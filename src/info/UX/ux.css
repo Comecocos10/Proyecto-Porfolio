@@ -10,8 +10,7 @@
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: flex-start;
-    justify-content: space-between;
-    margin: 18px 6px 18px 6px;
+    margin: 18px 0 18px 0;
 }
     .long{
         justify-content: center;
@@ -39,7 +38,7 @@
     color: #232A2A;
     max-width: 330px;
     margin: 6px 12px 6px 12px;
-    max-height: 100px;
+    max-height: 130px;
 }
 .link-proyect{
     text-align: start;
@@ -68,9 +67,9 @@
     width: 150px;
 }
         .hriz {
-            height: 186.7px;
-            width: 300px;
-            margin: 24px 6px 24px 6px ;
+            height: 217.82px;
+            width: 350px;
+            margin: 24px 0 24px 0 ;
 
         }
         
@@ -80,7 +79,7 @@
     .img-ux {
         height: 462px;
         width: 180px;
-        margin: 6px px 6px 24px;
+        margin: 6px 24px 6px 24px;
     }
     .hriz {
         height: 342.28px;
