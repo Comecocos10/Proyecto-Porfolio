@@ -20,8 +20,21 @@
 
 .StudyJob{
     width: 55px;
-
 }
+
+    .StudyJob:hover{
+        animation: rotate-img 0.35s 2 0.1s;
+        transform-origin: center;
+    }
+     @keyframes rotate-img {
+        from {transform: none;}
+
+        25% {transform: rotate(20deg);}
+
+        75% {transform: rotate(-20deg);}
+
+        to {transform: none;}
+    }
 
 
 .trajectory-open {
