@@ -68,7 +68,7 @@ function Sticky(props) {
                                     class5='skill-bar-interna cincuenta'
                                     program6='Agile Methodology'
                                     class6='skill-bar-interna ochenta'
-                                    program7='Planing Research'
+                                    program7='Planning Research'
                                     class7='skill-bar-interna ochenta'
                                     program8='Leadership'
                                     class8='skill-bar-interna setenta'

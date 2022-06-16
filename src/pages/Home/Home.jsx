@@ -31,7 +31,7 @@ export default function Home() {
           name="INKY"
           />
         <Ghost 
-          text="Proyects UX/UI" 
+          text="Projects UX/UI" 
           about='about'
           modelo= {Inky}
           link='/proyectsUXUI'
@@ -42,7 +42,7 @@ export default function Home() {
           name="BLINKY"
           />
         <Ghost 
-          text="Proyects Product" 
+          text="Projects Product" 
           about='about'
           modelo={Blnky}
           link='/proyects-product'
@@ -64,7 +64,7 @@ export default function Home() {
           name="Clyde"
           />
         <Ghost 
-          text="Trajectory" 
+          text="Career Path" 
           about='about'
           modelo={Clyde}
           link='/trajectory'

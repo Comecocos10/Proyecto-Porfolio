@@ -19,7 +19,7 @@ function Ux(props) {
                             <section className='seccion-proycts'>
                                 <h4 className='titel-proyec'>Goal</h4>
                                 <p className='text-proyect little2'>{props.data[counter].goal}</p>
-                                <h4 className='titel-proyec'>Descripcion</h4>
+                                <h4 className='titel-proyec'>Description</h4>
                                 <p className='text-proyect little2'>{props.data[counter].descripcion}</p>
                 
                             </section>

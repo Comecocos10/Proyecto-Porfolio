@@ -27,7 +27,7 @@ function Trajectory() {
             <GhostSeccion
                 modelo={Clyde}/>
             <SeccionSign2
-                name="Trajectory"
+                name="Career Path"
                 colorlight="#EFC594"
                 colordark="#E2963B"/>
             <section className='crono-back'>
