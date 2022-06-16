@@ -39,10 +39,14 @@
     font-size: 18px;
     font-weight: 400;
     color: #232A2A;
-    max-width: 160px;
+    max-width: 200px;
     margin: 6px 12px 6px 12px;
     max-height: 120px;
 }
+
+    .large {
+        max-width: 320px;
+    }
 
 .little2 {
     max-width: 160px;

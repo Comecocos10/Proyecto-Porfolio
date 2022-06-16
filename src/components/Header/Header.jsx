@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 export default function Header(props) {
 
-    return <header className="header">
+    return <header className="header" name="header">
            <Link className='text-decoration' to='/'>
                 <button className="miniLogo">
                 </button>

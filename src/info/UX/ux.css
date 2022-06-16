@@ -17,9 +17,9 @@
     }
 
 .titel-proyec{
-    font-family: 'Caveat', cursive;
+    font-family: 'Oswald', sans-serif;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 28px;
     margin: 0 0 0 0%;
     color: #232A2A;
     margin: 12px 24px 12px 24px;
@@ -36,10 +36,12 @@
     font-size: 18px;
     font-weight: 400;
     color: #232A2A;
-    max-width: 160px;
     margin: 6px 12px 6px 12px;
     max-height: 120px;
-}
+} 
+
+    
+
 .link-proyect{
     text-align: start;
     font-family: 'Oswald', sans-serif;

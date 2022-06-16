@@ -26,7 +26,7 @@ function Product(props) {
                         <div className='paragraf-proyects long'>
                             <section className='seccion-proycts'>
                                 <h4 className='titel-proyec'>Mision</h4>
-                                <p className='text-proyect'>{props.data[counter].MYV}</p>
+                                <p className='text-proyect large'>{props.data[counter].MYV}</p>
                             </section>
                         </div>
                         <div className='paragraf-proyects'>
@@ -42,7 +42,7 @@ function Product(props) {
                             <div className='colum-proyect'>
                                 <section className='seccion-proycts'>
                                     <h4 className='titel-proyec'>Product</h4>
-                                    <p className='text-proyect'>{props.data[counter].conclusion}</p>
+                                    <p className='text-proyect large'>{props.data[counter].conclusion}</p>
                                 </section>
                                 <img className='img-product horz' src={props.data[counter].photofin} alt="" />
                             </div>
