@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 5400px;
+    margin-top: 5350px;
 }
     
     .titel-finish{
@@ -31,14 +31,17 @@
             margin: 0 0 1% 0%;
             white-space: nowrap;
         }
+        
+        .video-finsh{
+            width: 400px;
+        }
 
         .email{
-            color: #4C2650;
+            color: #AB5CB2;
             font-family: 'Oswald', sans-serif;
             font-size: 1.5rem;
             font-weight: 400;
             margin: 0 0 25px 0%;
-            text-decoration: none;
         }
 
         .email:hover {
@@ -55,7 +58,15 @@ model-viewer#reveal {
 /*MEDIAS*/
 
 @media (min-width: 950px) {
+    .email {
+            color: #6D3672;
+            text-decoration: none;
+        }
+
     .finish {
-        margin-top: 7110px;
+        margin-top: 7050px;
+    }
+    .video-finsh {
+        width: 550px;
     }
 }

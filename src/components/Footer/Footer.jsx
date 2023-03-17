@@ -11,9 +11,9 @@ import ghostGIT from '../../recursos/ghostGIT.png'
 export default function Footer(props) {
 
     return <footer className="footer">
-        <p className='text-rrss'>Conctact me in:</p>
+        <p className='text-rrss'>Conctact me on:</p>
         <div className='footer-icons'>
-            <a className="miniLogo" href=""></a>
+            <a className="miniLogo" href="#"></a>
             <section className='section-rrss'>
                 <RRSS
                     link="https://www.instagram.com/menjacaps/?hl=es"

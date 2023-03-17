@@ -18,16 +18,16 @@
    top: 50px;
 }   
    .blue{
-      margin-top: 1320px;
+      margin-top: 1310px;
    }
    .red {
-      margin-top: 1285px;
+      margin-top: 1270px;
    }
    .pink {
-      margin-top: 1150px;
+      margin-top: 1190px;
    }
    .orange {
-      margin-top: 1070px;
+      margin-top: 1100px;
    }
 
     .me-top{
@@ -40,7 +40,7 @@
          height: 92px;
          background-color:#EEF5F6 ;
       }
-   
+
 
 /*MEDIAS*/
 
@@ -62,7 +62,7 @@
          background-color: #EEF5F6;
       }
    .blue {
-      margin-top: 1360px;
+      margin-top: 1320px;
    }
 
    .red {
@@ -74,6 +74,6 @@
    }
 
    .orange {
-      margin-top: 1140px;
+      margin-top: 1160px;
    }
 }

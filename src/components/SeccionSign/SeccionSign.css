@@ -2,24 +2,34 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 3px;
 }
 .Sign{
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    margin-top: 30px;
+    margin-top: 35px;
+    min-width: 300px;
 }
+.Sign3 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 35px;
+}
+
 
 .info-page{
     margin-top: 66px;
-    width: 90%;
+}
+
+.info-page-dos {
+    margin-top: 36px;
 }
 
 .fondo-sign{
     position: absolute;
     top: 352px;
-    left: 35px;
+    left: 42px;
     z-index: 0;
     display: flex;
     justify-content: center;
@@ -45,6 +55,13 @@
     margin: 0;
 }
 
+.change-sign {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+}
 
 .noarrow{
     margin-bottom: 90px;
@@ -55,7 +72,6 @@
     width: 12px;
     display: flex;
     flex-direction: row;
-    max-width: 100vw;
     justify-content: center;
     align-items: center;
     margin-top: 12px;
@@ -69,13 +85,22 @@
 /*MEDIAS*/
 @media (min-width: 950px) {
     .fondo-sign {
-    position: absolute;
-    top: 425px;
-    display: flex;
-    justify-content: center;
-    z-index: 0;
-    width: 95vw;
-}
+        position: absolute;
+        top: 425px;
+        left: 38px;
+        display: flex;
+        justify-content: center;
+        z-index: 0;
+        width: 95vw;
+        }
+        .arrowseccion {
+            height: 18px;
+            width: 18px;
+        }
+
+        .info-page {
+            width: 550px;
+        }
 
 }
 

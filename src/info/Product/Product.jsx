@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './product.css';
 
+
 function Product(props) {
     const [counter, setCounter] = useState(0);
 
@@ -18,33 +19,34 @@ function Product(props) {
                         <div className='paragraf-proyects'>
                             <section className='seccion-proycts'>
                                 <h4 className='titel-proyec'>Briefing</h4>
-                                <p className='text-proyect little'>{props.data[counter].briefing} Texto</p>
+                                <p className='text-proyect little2'>{props.data[counter].briefing}</p>
                             </section>
-                            <img className='img-product' src="" alt="" />
+                            <img className='img-product' src={props.data[counter].photoprin} alt="" />
                         </div>
                         <div className='paragraf-proyects long'>
                             <section className='seccion-proycts'>
-                                <h4 className='titel-proyec'>Mision Y Vision</h4>
-                                <p className='text-proyect'>{props.data[counter].MYV} Texto</p>
+                                <h4 className='titel-proyec'>Mision</h4>
+                                <p className='text-proyect large'>{props.data[counter].MYV}</p>
                             </section>
                         </div>
                         <div className='paragraf-proyects'>
-                            <img className='img-product' src="" alt="" />
+                            <img className='img-product' src={props.data[counter].photodetail} alt="" />
                             <section className='seccion-proycts'>
                                 <h4 className='titel-proyec'>Users</h4>
-                                <p className='text-proyect little'>{props.data[counter].users}Texto</p>
+                                <p className='text-proyect little2'>{props.data[counter].user}</p>
                                 <h4 className='titel-proyec'>Material</h4>
-                                <p className='text-proyect little'>{props.data[counter].material}Texto</p>
-                                <h4 className='titel-proyec'>Procesos</h4>
-                                <p className='text-proyect little'>{props.data[counter].Process}Texto</p>
+                                <p className='text-proyect little2'>{props.data[counter].material}</p>
                             </section>
                         </div>
                         <div className='paragraf-proyects long'>
-                            <section className='seccion-proycts'>
-                                <h4 className='titel-proyec'>Conclusion</h4>
-                                <p className='text-proyect'>{props.data[counter].conclusion}Texto</p>
-                                <img className='img-product horz' src="" alt="" />
-                            </section>
+                            <div className='colum-proyect'>
+                                <section className='seccion-proycts'>
+                                    <h4 className='titel-proyec'>Product</h4>
+                                    <p className='text-proyect large'>{props.data[counter].conclusion}</p>
+                                </section>
+                                <img className='img-product horz' src={props.data[counter].photofin} alt="" />
+                            </div>
+                            
                         </div>   
                     </section>
 

@@ -26,3 +26,9 @@
 .text-decoration:active {
     text-decoration: none;
 }
+
+/*MEDIAS*/
+@media (min-width: 950px) {
+    
+
+}

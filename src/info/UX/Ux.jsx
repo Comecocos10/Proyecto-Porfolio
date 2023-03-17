@@ -18,39 +18,49 @@ function Ux(props) {
                         <div className='paragraf-proyects'>
                             <section className='seccion-proycts'>
                                 <h4 className='titel-proyec'>Goal</h4>
-                                <p className='text-proyect little'>{props.data[counter].goal} Texto</p>
-                                <h4 className='titel-proyec'>Descripcion</h4>
-                                <p className='text-proyect little'>{props.data[counter].descripcion}Texto</p>
+                                <p className='text-proyect little2'>{props.data[counter].goal}</p>
+                                <h4 className='titel-proyec'>Description</h4>
+                                <p className='text-proyect little2'>{props.data[counter].descripcion}</p>
+                
                             </section>
-                            <img className='img-ux' src="" alt="" />
+                            <img className='img-ux' src={props.data[counter].mvl1} alt="" />
                         </div>
-                        <div className='paragraf-proyects'>
-                            <img className='img-ux' src="" alt="" />
+                        <div className='paragraf-proyects long'>
                             <section className='seccion-proycts'>
-                                <h4 className='titel-proyec'>Empathy Map Users</h4>
-                                <img className='img-ux hriz ' src="" alt="" />
-                                <img className='img-ux hriz ' src="" alt="" />
+                                <h4 className='titel-proyec'>Users</h4>
+                                <img className='img-ux hriz ' src={props.data[counter].user1} alt="" />
+                                <img className='img-ux hriz ' src={props.data[counter].user2} alt="" />
                             </section>
                         </div>
                         <div className='paragraf-proyects'>
+                            <img className='img-ux' src={props.data[counter].mvl2} alt="" />
                             <section className='seccion-proycts'>
                                 <h4 className='titel-proyec'>Requirements</h4>
-                                <p className='text-proyect'>{props.data[counter].requeriments}Texto</p>
-                                <h4 className='titel-proyec'>User Interaction</h4>
-                                <p className='text-proyect little'>{props.data[counter].interaction}Texto</p>
+                                <p className='text-proyect'>{props.data[counter].requeriments}</p>
+                                <h4 className='titel-proyec'>Hypotheses</h4>
+                                <p className='text-proyect'>{props.data[counter].hypot}</p>
                             </section>
-                            <img className='img-ux' src="" alt="" />
+                        </div>
+                        <div className='paragraf-proyects'>
+                            <section className='seccion-proycts'>
+                                <h4 className='titel-proyec'>User Interaction</h4>
+                                <p className='text-proyect little2'>{props.data[counter].interaction}
+                                    <br></br>{props.data[counter].interaction2}
+                                    <br></br>{props.data[counter].interaction3}
+                                    <br></br>{props.data[counter].interaction4}</p>
+                            </section>
+                            <img className='img-ux' src={props.data[counter].mvl3} alt="" />
                         </div>
                         <div className='paragraf-proyects long'>
                             <section className='seccion-proycts'>
                                 <h4 className='titel-proyec'>User Flow</h4>
-                                <img className='img-ux hriz ' src="" alt="" />
+                                <img className='img-ux hriz ' src={props.data[counter].flow} alt="" />
                             </section>
                         </div>
                         <div className='paragraf-proyects long'>
                             <section className='seccion-proycts'>
                                 <h4 className='titel-proyec'>Link</h4>
-                                <a className='text-proyect' href={props.data[counter].link}>Texto</a>
+                                <a className='link-proyect' href={props.data[counter].link}>¡Check it!</a>
                             </section>
                         </div>
                     </section>

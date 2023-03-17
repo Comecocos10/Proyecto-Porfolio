@@ -27,6 +27,13 @@
     margin: 0;
     color: #232A2A;
 }
+.text-tellyou {
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+    font-size: 1.6rem;
+    margin: 0 0 7% 0;
+    color: #232A2A;
+}
 
 .text-decoration:link,
 .text-decoration:visited,
@@ -40,4 +47,4 @@
     .threeDMe{
             margin: 0 10% 0 15%;
         }
-}
+   }

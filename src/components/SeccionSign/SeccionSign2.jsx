@@ -1,8 +1,6 @@
 import React from 'react';
 import './SeccionSign.css';
 
-
-
 function SeccionSign2(props) {
     return (
         <div className="Sign">

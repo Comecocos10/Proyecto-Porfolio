@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Trajectory.css';
 import ButtomBack from '../../components/Buttom/ButtomBack'
 import GhostSeccion from '../../components/Ghost/GhostSeccion'
@@ -15,6 +15,10 @@ import Maletin from '../../recursos/maletin.png'
 
 
 function Trajectory() {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, []);
+
     return (
         <div className="Trajectory">
             <Link className='text-decoration' to='/'>
@@ -23,7 +27,7 @@ function Trajectory() {
             <GhostSeccion
                 modelo={Clyde}/>
             <SeccionSign2
-                name="Trajectory"
+                name="Career Path"
                 colorlight="#EFC594"
                 colordark="#E2963B"/>
             <section className='crono-back'>

@@ -32,6 +32,6 @@ export default function Ghost(props) {
             <Buttom 
                 text={props.text}
             />  
-        </Link> 
+        </Link>
     </div>
 }

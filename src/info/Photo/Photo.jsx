@@ -10,6 +10,7 @@ import Animal2 from '../../recursos/photo/Animales-2.jpg'
 import Animal3 from '../../recursos/photo/Animales-3.jpg'
 import Animal4 from '../../recursos/photo/Animales-4.jpg'
 import Animal5 from '../../recursos/photo/Animales-5.jpg'
+import Animal6 from '../../recursos/photo/Animales-6.jpg'
 import Amsterdam1 from '../../recursos/photo/Amsterdam-1.jpg'
 import Amsterdam2 from '../../recursos/photo/Amsterdam-2.jpg'
 import Amsterdam3 from '../../recursos/photo/Amsterdam-3.jpg'
@@ -52,6 +53,7 @@ function Photo(props) {
         { photo: Animal3 },
         { photo: Animal4 },
         { photo: Animal5 },
+        { photo: Animal6 },
     ];
     const Amsterdam = [
         { photo: Amsterdam1 },
@@ -109,7 +111,7 @@ function Photo(props) {
                 </div>
             <div className='titel-skill'>
                <img className='numer' src={Two} alt="" />
-                <h2 className='titel-text'>Animal</h2>                 
+                <h2 className='titel-text'>Animals Pics</h2>                 
             </div>
             <div className='Sign-photo'>
                 <SliderPhoto
@@ -117,15 +119,15 @@ function Photo(props) {
             </div>
             <div className='titel-skill'>
                 <img className='numer' src={Three} alt="" />
-                <h2 className='titel-text'>Amsterdam</h2>
+                <h2 className='titel-text'>Landscapes Pics</h2>
             </div>
             <div className='Sign-photo'>
                 <SliderPhoto
-                    data={Amsterdam} />
+                    data={Paisaje} />
             </div>
             <div className='titel-skill'>
                 <img className='numer' src={Four} alt="" />
-                <h2 className='titel-text'>Italia</h2>
+                <h2 className='titel-text'>Italy Pics</h2>
             </div>
             <div className='Sign-photo'>
                 <SliderPhoto
@@ -133,11 +135,11 @@ function Photo(props) {
             </div>
             <div className='titel-skill'>
                 <img className='numer' src={Five} alt="" />
-                <h2 className='titel-text'>Paisajes</h2>
+                <h2 className='titel-text'>Amsterdam Pics</h2>
             </div>
             <div className='Sign-photo'>
                 <SliderPhoto
-                    data={Paisaje} />
+                    data={Amsterdam} />
             </div>
             
         </div>

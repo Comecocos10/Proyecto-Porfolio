@@ -9,43 +9,97 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-    margin: 24px 6px 24px 6px;
+    align-items: flex-start;
+    margin: 18px 0 18px 0;
 }
     .long{
         justify-content: center;
     }
 
 .titel-proyec{
-    font-family: 'Caveat', cursive;
+    font-family: 'Oswald', sans-serif;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 28px;
     margin: 0 0 0 0%;
     color: #232A2A;
-    text-align: center;
+    margin: 12px 24px 12px 24px;
 }
 
 .seccion-proycts{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
 }
 
 .text-proyect {
+    text-align: start;
     font-family: 'Oswald', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     color: #232A2A;
+    margin: 6px 12px 6px 12px;
+    max-height: 120px;
+} 
+
+    
+
+.link-proyect{
+    text-align: start;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #232A2A;
+    max-width: 330px;
+    margin: 6px 12px 6px 12px;
+    max-height: 100px;
+    text-decoration: underline;
+}
+        .link-proyect:hover {
+            text-align: center;
+            color: #22B5A3;
+            text-decoration: underline;
+        }
+
+.little2 {
+    max-width: 160px;
+    margin: 3px 12px 3px 12px;
 }
 
 .img-ux {
-    height: 233px;
-    width: 127px;
+    height: 325px;
+    width: 126.48px;
 }
         .hriz {
-            height: 97px;
-            width: 150px;
+            height: 186.7px;
+            width: 300px;
+            margin: 24px 0 24px 0 ;
+
         }
+        
+
+@media (min-width: 950px) {
+    
+    .img-ux {
+        height: 462px;
+        width: 180px;
+        margin: 6px 24px 6px 24px;
+    }
+    .hriz {
+        height: 404.52px;
+        width: 650px;
+        margin: 6px 24px 6px 24px;
+    }
+
+    .titel-proyec {
+        font-size: 39px;
+    }
+
+    .text-proyect {
+        font-size: 21px;
+        max-width: 550px;
+    }
+
+    .little2 {
+        max-width: 500px;
+        margin: 6px 24px 12px 24px
+    }
+}
