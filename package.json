@@ -17,8 +17,10 @@
     "three": "^0.140.2",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://frontend.esatid3-2021.com/andreah/portfolio/",
+  "homepage": "https://Comecocos10.github.io/Proyecto-Porfolio",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -41,5 +43,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
